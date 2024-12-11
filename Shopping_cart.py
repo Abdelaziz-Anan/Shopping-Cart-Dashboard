@@ -9,7 +9,7 @@ st.set_page_config(layout='wide',
                   )
 
 tap1, tap2 = st.tabs(['📈 Descriptive Stats', '📊 Charts'])
-df = pd.read_csv('All_data.csv')
+df = pd.read_csv('../All_data.csv')
 
 
 num = df.describe()
