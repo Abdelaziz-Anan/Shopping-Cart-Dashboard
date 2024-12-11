@@ -1,3 +1,2 @@
 plotly
-import pandas as pd 
-pd.read_csv('shopping_cart.csv')
+pandas
