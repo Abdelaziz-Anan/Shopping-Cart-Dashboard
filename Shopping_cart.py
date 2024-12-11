@@ -10,6 +10,10 @@ st.set_page_config(layout='wide',
 
 tap1, tap2 = st.tabs(['📈 Descriptive Stats', '📊 Charts'])
 df = pd.read_csv('shopping_cart.csv')
+
+top_per_ms.to_csv("top_per_ms.csv")
+top_per_ur.to_csv("top_per_ur.csv")
+
 num = df.describe()
 cat = df.describe(include='O')
 
